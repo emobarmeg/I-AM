@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card Example</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Fonts from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- The main container for the profile card -->
+    <div class="profile-card">
+      <!-- The user's profile picture area -->
+      <div class="profile-picture"></div>
+
+      <!-- Player's name and level -->
+      <h3 class="player-name">محارب الليل</h3>
+      <p class="player-level">المستوى 5 - مبتدئ</p>
+
+      <!-- Container for player's statistics -->
+      <div class="stats-container">
+        <!-- First stat: Logic -->
+        <div class="stat">
+          <p class="skill-name">المنطق (Logic)</p>
+          <div class="bar-background">
+            <div class="bar-progress" style="width: 70%"></div>
+          </div>
+        </div>
+        <!-- Second stat: Creativity -->
+        <div class="stat">
+          <p class="skill-name">الابداع (Creativity)</p>
+          <div class="bar-background">
+            <div class="bar-progress" style="width: 45%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
