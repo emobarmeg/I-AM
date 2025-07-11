@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile Card Example</title>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="styles.css" />
-
-    <!-- Fonts from Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- The main container for the profile card -->
-    <div class="profile-card">
-      <!-- The user's profile picture area -->
-      <div class="profile-picture"></div>
-
-      <!-- Player's name and level -->
-      <h3 class="player-name">محارب الليل</h3>
-      <p class="player-level">المستوى 5 - مبتدئ</p>
-
-      <!-- Container for player's statistics -->
-      <div class="stats-container">
-        <!-- First stat: Logic -->
-        <div class="stat">
-          <p class="skill-name">المنطق (Logic)</p>
-          <div class="bar-background">
-            <div class="bar-progress" style="width: 70%"></div>
-          </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Card</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="portfolio-card-container">
+        <div class="card">
+            <img src="https://placehold.co/150x150/111827/38bdf8?text=ME" alt="Profile Picture" class="profile-picture" onerror="this.onerror=null; this.src='https://placehold.co/150x150';">
+            
+            <h1 class="name">Your Name</h1>
+            <p class="title">Frontend Developer</p>
+            
+            <p class="bio">
+                A passionate developer who loves turning ideas into beautiful, responsive, and interactive web experiences.
+            </p>
+            
+            <h2 class="skills-title">Skills</h2>
+            <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+            </ul>
+            
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="Personal Website"><i class="fas fa-globe"></i></a>
+            </div>
         </div>
-        <!-- Second stat: Creativity -->
-        <div class="stat">
-          <p class="skill-name">الابداع (Creativity)</p>
-          <div class="bar-background">
-            <div class="bar-progress" style="width: 45%"></div>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+
+</body>
 </html>
